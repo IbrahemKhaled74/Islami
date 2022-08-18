@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IslamiApp</string>
+    <string name="islami" translatable="false">اسلامي</string>
+    <string name="quranName" translatable="false">القران الكريم</string>
+    <string name="hadethName" translatable="false">الحديث</string>
+    <string name="sebhaName" translatable="false">السبحه</string>
+    <string name="radioName" translatable="false">الراديو</string>
+    <string name="tasbeeh" translatable="false">عدد التسبيحات</string>
+    <string name="nightmode" translatable="false">الوضع الليلي</string>
+    <string name="Language" translatable="false">الترجمه الي العربيه</string>
+    <string name="quran_radio" translatable="false">اذاعه القران الكريم</string>
+    <string name="sura_name" translatable="false">اسم السوره</string>
+    <string name="hadeeth_name" translatable="false">الاحاديث</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sura_details">sura_details</string>
+    <string name="open_drawer">open navigation drawer</string>
+    <string name="close_drawer">close navigation drawer</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>

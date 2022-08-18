@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name" translatable="false">IslamiApp</string>
+    <string name="islami">Islami</string>
+    <string name="quranName">Quran</string>
+    <string name="hadethName">Hadeth</string>
+    <string name="sebhaName">Sebha</string>
+    <string name="radioName">Radio</string>
+    <string name="title_activity_sura_details" translatable="false">sura_details</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="tasbeeh">Tasbeeh Timer</string>
+    <string name="title_activity_main2" translatable="false">MainActivity2</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="open_drawer" translatable="false">open navigation drawer</string>
+    <string name="close_drawer" translatable="false">close navigation drawer</string>
+    <string name="menu_slideshow" translatable="false">Slideshow</string>
+    <string name="nightmode">Light Mode</string>
+
+</resources>

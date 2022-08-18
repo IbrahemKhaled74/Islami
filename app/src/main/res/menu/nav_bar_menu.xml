@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/quran"
+        android:icon="@mipmap/quran"
+        android:title="@string/quranName" />
+    <item
+        android:id="@+id/hadeth"
+        android:icon="@mipmap/hadeth"
+        android:title="@string/hadethName" />
+    <item
+        android:id="@+id/sebha"
+        android:icon="@mipmap/sebha"
+        android:title="@string/sebhaName" />
+
+    <item
+        android:id="@+id/radio"
+        android:icon="@mipmap/radio"
+        android:title="@string/radioName" />
+
+
+</menu>

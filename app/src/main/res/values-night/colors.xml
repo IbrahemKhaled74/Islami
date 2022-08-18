@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#141A2E</color>
+    <color name="purple_500">#1C2542</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gold">#B7935F</color>
+    <color name="gold_300">#987A4F</color>
+    <color name="transperent">#00FFFFFF</color>
+    <color name="border">#FACC1D</color>
+    <color name="sura_text">#FFFFFFFF</color>
+    <color name="selected_item">#FACC1D</color>
+    <color name="sura_hadeth_details_text">#FACC1D</color>
+    <color name="text_backround">#FF000000</color>
+    <color name="tasbeeh">#FF000000</color>
+    <color name="tasbeeh_bac">#FACC1D</color>
+    <color name="nav_bac">#141A2E</color>
+    <color name="reverse_item">#FF000000</color>
+
+
+</resources>

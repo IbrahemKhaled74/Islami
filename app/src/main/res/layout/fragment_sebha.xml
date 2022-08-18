@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@drawable/main_background"
+    tools:context=".sebha.sebha">
+
+    <TextView
+        android:id="@+id/islami_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:fontFamily="@font/elmesseri_bold"
+        android:text="@string/islami"
+        android:textColor="@color/sura_text"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/head_sebha"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/head_of_seb7a"
+        app:layout_constraintBottom_toTopOf="@id/body_sebha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/islami_text"
+        app:layout_constraintWidth_percent=".13" />
+
+    <ImageView
+        android:id="@+id/body_sebha"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/body_of_seb7a"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/head_sebha"
+        app:layout_constraintWidth_percent=".40" />
+
+    <TextView
+        android:id="@+id/tasbeeh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/elmesseri_bold"
+        android:text="@string/tasbeeh"
+        android:textColor="@color/sura_text"
+        android:textSize="33sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/body_sebha" />
+
+    <TextView
+        android:id="@+id/tasbeeh_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/text_background"
+        android:padding="25dp"
+        android:text="0"
+        android:textColor="@color/sura_text"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tasbeeh" />
+
+    <TextView
+        android:id="@+id/zekr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/zekr_background"
+        android:fontFamily="@font/kouf"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="سبحان الله"
+        android:textColor="@color/tasbeeh"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tasbeeh_timer" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
