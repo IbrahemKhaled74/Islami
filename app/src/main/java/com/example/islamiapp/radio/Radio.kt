@@ -118,7 +118,6 @@ class radio : Fragment() {
             progressBar.isVisible = false
             isPlaying = false
             mediaPlayer?.stop()
-            mediaPlayer?.release()
             play.setImageResource(R.drawable.icon_play)
 
         }
