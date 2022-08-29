@@ -1,5 +1,7 @@
 # Islami App
 
+Please ⭐️ this repo and share it with others
+
 # Description
 
 This project is Islamic app contain holy Quran, hadeeth, Sabha 
